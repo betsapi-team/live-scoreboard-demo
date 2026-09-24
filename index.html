@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Scoreboard Demo - BetsAPI</title>
+  <meta name="description" content="A demo dashboard displaying live sports scores from the BetsAPI live sports data API.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Live Scoreboard</h1>
+    <p class="subtitle">Live scores via <a href=" " target="_blank" rel="noopener">BetsAPI</a ></p >
+    <div class="toolbar">
+      <span id="status" class="status">Loading...</span>
+      <span id="last-update" class="last-update"></span>
+      <button id="refresh-btn" type="button">Refresh</button>
+    </div>
+  </header>
+
+  <!-- live events are rendered into this list by js/app.js -->
+  <main id="events" class="events"></main>
+
+  <footer>
+    <p>Demo project for the BetsAPI sports data API. Data may be delayed.</p >
+    <p class="disclaimer">For educational purposes only. Sports betting may be restricted in your jurisdiction.</p >
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
