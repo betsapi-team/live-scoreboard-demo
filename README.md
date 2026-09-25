@@ -43,7 +43,7 @@ No permanent free tier. BetsAPI offers an affordable trial, and paid plans start
 Live scores, statistics and in-play odds update every 3 to 5 seconds.
 
 **What sports are covered?**
-12+ sports including soccer, basketball, tennis, ice hockey, table tennis, cricket, snooker, darts, horse racing, greyhounds, and esports (LoL, Dota 2, CS2).
+50+ sports including soccer, basketball, tennis, ice hockey, table tennis, cricket, snooker, darts, horse racing, greyhounds, and esports (LoL, Dota 2, CS2).
 
 **Can I use this code in my own project?**
 Yes, MIT license. Keep the link back to BetsAPI.
